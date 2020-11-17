@@ -63,6 +63,10 @@ img{
   border-spacing: 0;
 }
 
+img.item{
+  height: 50%;
+}
+
 .rounded {
   border-radius: 50%;
 }
