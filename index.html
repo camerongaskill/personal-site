@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width">
   <title>Cameron Gaskill | Software Engineer Student | Portfolio</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <html lang="en">
+
+  </html>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap');
@@ -27,10 +30,10 @@
 <main>
   <!--Introduction-->
   <article id="home" class="group">
-    <section class="item">
+    <div class="item">
       <img src="images/mountain.jpg" alt="My girlfriend and I on a hiking trip" id="mountain">
-    </section>
-    <section id="intro-text" class="item">
+    </div>
+    <div id="intro-text" class="item">
       <p>Hi! I’m Cameron Gaskill, I’m a student over at Thinkful studying Software Engineering. I am 18 years old born
         in Boston, MA, and I currently live in Charlotte, NC. After being laid off due to COVID-19, I decided to make
         a career change from the welding industry into a field of tech.</p>
@@ -38,14 +41,14 @@
         later on, I hope to specialize in cybersecurity with a rule such as a pen tester or possibly a security
         architect. I find the rapidly growing world of technology very exciting and I’m ready to begin my journey of
         life-long learning.</p>
-    </section>
+    </div>
   </article>
 
   <!--About Me-->
   <article class="group-reverse">
-    <section class="item">
+    <div class="item">
       <img src="images/charlotte.jpg" alt="Picture of the Charlotte skyline" class="rounded">
-    </section>
+    </div>
     <section id="about" class="item-double">
       <h2>About Me</h2>
       <P>After going through a number of introductory coding classes in high school, I was hooked on the endless
@@ -134,26 +137,24 @@
         <h3>Github</h3>
       </div>
     </section>
-    <section class="form">
-      <form action="https://formspree.io/f/mqkglkgd" method="POST">
-        <ul class="flex-form">
-          <li>
-            <label id="email-label" for="email">Email</label>
-            <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required />
-          </li>
-          <li>
-            <label id="message-label" for="message">Your Message</label>
-            <textarea id="message" class="input-textarea" name="message"
-              placeholder="Enter your message here and I will contact you shortly"></textarea>
-          </li>
-          <li>
-            <button type="submit" id="submit" class="submit-button">
-              Submit
-            </button>
-          </li>
-        </ul>
-      </form>
-    </section>
+    <form action="https://formspree.io/f/mqkglkgd" method="POST" class="form">
+      <ul class="flex-form">
+        <li>
+          <label id="email-label" for="email">Email</label>
+          <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required />
+        </li>
+        <li>
+          <label id="message-label" for="message">Your Message</label>
+          <textarea id="message" class="input-textarea" name="message"
+            placeholder="Enter your message here and I will contact you shortly"></textarea>
+        </li>
+        <li>
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </li>
+      </ul>
+    </form>
   </article>
 </main>
 
