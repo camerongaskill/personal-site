@@ -9,18 +9,18 @@
 </head>
 
 <body>
-  <header class="navbar">
+  <header class="navbar border">
     <h1>Cameron Gaskill</h1>
     <nav>
       <ul id="navbar">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
-  <div id="home" class="group">
+  <div id="home" class="group border">
     <div class="hero-image">
       <div class="hero-text">
         <h2>Cameron Gaskill</h2>
@@ -28,7 +28,29 @@
       </div>
     </div>
   </div>
-  <section>
+  <section id="about" class="border">
+    <h2>About </h2>
+    <p>
+      I am a junior software developer in Charlotte, North Carolina. 
+      I specialize in front end development using HTML, CSS, and Javascript.
+      My main skills are in:
+    </p>
+    <div class="skills">
+      <ul class="skills-list">
+        <li>Node.js</li>
+        <li>Jquery</li>
+        <li>React</li>
+        <li>REST APIs</li>
+      </ul>
+      <ul class="skills-list">
+        <li>Git</li>
+        <li>Jest testing</li>
+        <li>Express</li>
+        <li>Enzyme</li>
+      </ul>
+    </div>
+  </section>
+  <section id="projects" class="border">
     <h2>Projects</h2>
     <section class="project-list">
       <div class="project">
@@ -46,6 +68,26 @@
             </a>
           </li>
         </ul>
+      </div>
+    </section>
+  </section>
+  <section id="contact">
+    <h2>Get in Contact</h2>
+    <section id="contact-list">
+      <div class="contact">
+        <a href="mailto:camerongaskill@gmail.com" target="blank">
+          <img src="images/email.png" alt="Email">
+        </a>
+      </div>
+      <div class="contact">
+        <a href="www.linkedin.com/in/cameron-gaskill" target="blank">
+          <img src="images/linkedin.png" alt="LinkedIn">
+        </a>
+      </div>
+      <div class="contact">
+        <a href="https://github.com/camerongaskill" target="blank">
+          <img src="images/github.png" alt="Github">
+        </a>
       </div>
     </section>
   </section>
