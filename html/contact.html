@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Cameron Gaskill | Software Engineer Student | Portfolio</title>
+  <link href="./css/style.css" rel="stylesheet" type="text/css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap');
+  </style>
+</head>
+<body>
+    <article id="contact">
+        <h2>Contact Me</h2>
+        <section id="contact-list" class="group">
+          <div class="item">
+            <a href="mailto:camerongaskill@gmail.com" target="blank">
+              <img src="images/email.png" alt="Email">
+            </a>
+            <h3>Email</h3>
+          </div>
+          <div class="item">
+            <a href="www.linkedin.com/in/cameron-gaskill" target="blank">
+              <img src="images/linkedin.png" alt="LinkedIn">
+            </a>
+            <h3>LinkedIn</h3>
+          </div>
+          <div class="item">
+            <a href="https://github.com/camerongaskill" target="blank">
+              <img src="images/github.png" alt="Github">
+            </a>
+            <h3>Github</h3>
+          </div>
+        </section>
+        <form action="https://formspree.io/f/mqkglkgd" method="POST" class="form">
+          <ul class="flex-form">
+            <li>
+              <label id="email-label" for="email">Email</label>
+              <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required />
+            </li>
+            <li>
+              <label id="message-label" for="message">Your Message</label>
+              <textarea id="message" class="input-textarea" name="message"
+                placeholder="Enter your message here and I will contact you shortly"></textarea>
+            </li>
+            <li>
+              <button type="submit" id="submit" class="submit-button">
+                Submit
+              </button>
+            </li>
+          </ul>
+        </form>
+      </article>
+</body>
+</html>
