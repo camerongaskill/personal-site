@@ -14,20 +14,27 @@ body{
 
 header {
   background-color: black;
-  min-height: 15vh;
+  min-height: 8vh;
+  position: fixed;
+  top: 0;
   width:100%;
+  z-index: 3;
   text-align:center;
-  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .logo{
-  display: inline-block;
-  margin: 0px auto;
-  width: 25vw;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  height: 5vh;
 }
 
 header nav {
-  margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: 5px;
   display: flex;
   justify-content: center;
 }
@@ -50,6 +57,7 @@ header nav ul li:last-child a {
 }
 
 .hero-image{
+  margin-top: 8vh;
   height: 75vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../images/wes-hicks-Ccv4_hGvUpU-unsplash-min.jpg");
   height: 80vh;
