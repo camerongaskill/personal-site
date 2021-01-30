@@ -155,15 +155,84 @@ h2{
   padding: 5px 15px 5px 15px;
 }
 
-footer{
+#contact{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
-.contact img{
-  width: 10vw;
-  margin-bottom: 5vh;
+#contact p{
+  margin: 0 15vw 0 15vw;
+  text-align: center;
+}
+
+#contact img{
+  width: 30vw;
+  margin-left: 35vw;
+}
+
+footer{
+  min-height: 5vh;
+  text-align: center;
+  padding-top: 1vh;
 }
 
 @media all and (min-width: 600px) {
+
+  h2{
+    font-size: 60px;
+  }
+
+  h3{
+    font-size: 25px;
+  }
+
+  p{
+    font-size: 20px;
+  }
+
+  .icon img{
+    margin-top: 15px;
+    margin-right: 20px;
+    width: 6vw;
+  }
+
+  #about{
+    min-height: 60vh;
+    margin-left: 13vw;
+    margin-right: 13vw;
+    font-size: 20px;
+  }
+
+  .skills{
+    margin-top: 40px;
+  }
+
+  #about ul li{
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+
+  .project-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+  .project{
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .project img{
+    width: 30vw;
+  }
+
+  #contact img{
+    width: 10vw;
+    margin-left: 45vw;
+  }
 }
