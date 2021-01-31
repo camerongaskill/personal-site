@@ -16,7 +16,12 @@ tl.fromTo(loadingIcon, 0.8, { opacity: 0 }, { opacity: 1 })
 	.fromTo(loadingIcon, 0.8, { opacity: 1 }, { opacity: 0 })
 	.fromTo(loadingIcon, 0.8, { opacity: 0 }, { opacity: 1 })
 	.fromTo(loadingIcon, 0.8, { opacity: 1 }, { opacity: 0 })
-	.fromTo(loadingScreenTop, 1, { height: '50vh' }, { height: 0 })
+	.fromTo(
+		loadingScreenTop,
+		1,
+		{ height: '50vh' },
+		{ height: 0, display: 'none' }
+	)
 	.fromTo(
 		loadingScreenBot,
 		1,
